@@ -1,0 +1,20 @@
+
+
+double getWallArea()
+{
+
+    double area;
+    cout << "Enter wall area: ";
+    cin >> area;
+
+    while(area < 0){
+
+        cout << "Error: room must have positive area\n";
+        cout << "enter wall area: ";
+        cin >> area
+
+    }
+
+    return area;
+
+}

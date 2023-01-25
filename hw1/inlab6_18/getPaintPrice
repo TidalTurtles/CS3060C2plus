@@ -1,0 +1,18 @@
+
+
+double getPaintPrice()
+{
+
+    double price;
+    cout << "what is the price of paint: ";
+    cin >> price;
+
+    while(price < 10.0){
+        cout << "error: enter 10.0 or greater.\n";
+        cout << "Enter price of paint";
+        cin >> price;
+    }
+
+    return price;
+
+}

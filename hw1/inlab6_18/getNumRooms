@@ -1,0 +1,19 @@
+
+
+int getNumberOfRooms()
+{
+    int givenNumber;
+    cout << "Enter the number of rooms: ";
+    cin >> givenNumber;
+
+    while(givenNumber < 1){
+
+        cout << "error: enter 1 or greater.\n";
+        cout << "Enter number of rooms";
+        cin >> givenNumber;
+
+    }
+
+    return givenNumber;
+
+}

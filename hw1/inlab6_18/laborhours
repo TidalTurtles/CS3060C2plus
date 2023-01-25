@@ -1,0 +1,8 @@
+
+double laborHours(double wallArea)
+{
+
+    double hours = wallArea / AREA_PER_GALLON;
+    return hours;
+
+}
