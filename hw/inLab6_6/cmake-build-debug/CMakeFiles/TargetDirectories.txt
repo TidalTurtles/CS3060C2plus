@@ -1,0 +1,3 @@
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw/inLab6_6/cmake-build-debug/CMakeFiles/inLab6_6.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw/inLab6_6/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw/inLab6_6/cmake-build-debug/CMakeFiles/rebuild_cache.dir
