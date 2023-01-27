@@ -16,11 +16,22 @@
 #include <cmath>
 using namespace std;
 
+//Const
+const int ARRAY_LENGTH = 5;
 
 int main()
 {
 
-    cout << "Hello!!!";
+    //arrays
+    string flavors[ARRAY_LENGTH] = {"mild", "medium", "sweet", "hot", "zesty"};
+    int sold[ARRAY_LENGTH];
+
+    //get number sold for each
+
+
+    //display needed
+
+
     return 0;
 
 }
