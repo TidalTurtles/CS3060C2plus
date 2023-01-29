@@ -1,0 +1,3 @@
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw2/hw7_5/cmake-build-debug/CMakeFiles/hw7_5.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw2/hw7_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/hw2/hw7_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
