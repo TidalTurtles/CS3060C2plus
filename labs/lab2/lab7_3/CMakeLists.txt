@@ -3,4 +3,4 @@ project(lab7_3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab7_3 main.cpp)
+add_executable(lab7_3 main.cpp totalSold.cpp positionHigh.cpp positionLow.cpp)
