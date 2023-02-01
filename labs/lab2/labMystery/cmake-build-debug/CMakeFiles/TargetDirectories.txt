@@ -1,0 +1,3 @@
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab2/labMystery/cmake-build-debug/CMakeFiles/labMystery.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab2/labMystery/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab2/labMystery/cmake-build-debug/CMakeFiles/rebuild_cache.dir
