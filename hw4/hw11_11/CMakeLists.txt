@@ -3,4 +3,4 @@ project(hw11_11)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hw11_11 main.cpp budgetStruct.h)
+add_executable(hw11_11 main.cpp budgetStruct.h userBudget.h)

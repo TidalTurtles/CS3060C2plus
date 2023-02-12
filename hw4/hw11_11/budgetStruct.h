@@ -19,7 +19,7 @@ using namespace std;
 namespace monthlyBudgetStruct
 {
 
-    struct monthlyBudget{
+    struct MonthlyBudget{
 
         double housing;
         double utilities;
@@ -27,12 +27,15 @@ namespace monthlyBudgetStruct
         double transport;
         double food;
         double medical;
-        double insurancce;
+        double insurance;
         double entertainment;
         double clothes;
         double misc;
+        double totalBudget;
 
     };
+
+
 
 }
 

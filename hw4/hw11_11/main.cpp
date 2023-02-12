@@ -24,14 +24,37 @@
 
 #include <iostream>
 #include "budgetStruct.h"
+#include "userBudget.h"
 
 using namespace std;
 using namespace monthlyBudgetStruct;
+using namespace userInputBudget;
+
+//prototypes
+MonthlyBudget userExpenses();
+void displayDifferences(MonthlyBudget);
+
 
 int main()
 {
 
-    
+    //
+    //define goal budget values
+    //
+    MonthlyBudget expectations = {500.00, 150.00, 65.00, 50.00, 250.00,
+                                  30.00, 100.00, 150.00, 75.00, 50.00};
+
+    //this is a little big but not sure how else to do it so yeah...
+    expectations.totalBudget = expectations.housing + expectations.utilities +expectations.houseExpense +
+                                expectations.transport + expectations.food + expectations.medical + expectations.insurance
+                                + expectations.entertainment + expectations.clothes + expectations.misc;
+
+    //func to ask for users monthly spending
+    MonthlyBudget userInput = userInputBudget::userExpenses();
+
+    cout << userInput.totalBudget;
+
+    //display differences
 
     return 0;
 
