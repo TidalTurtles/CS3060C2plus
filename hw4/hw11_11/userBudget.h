@@ -2,7 +2,7 @@
  *
  * For each piece of month budget
  *
- *
+ * just add to total as you go
  *
  */
 

@@ -25,14 +25,16 @@
 #include <iostream>
 #include "budgetStruct.h"
 #include "userBudget.h"
+#include "displayOverUnder.h"
 
 using namespace std;
 using namespace monthlyBudgetStruct;
 using namespace userInputBudget;
+using namespace overUnder;
 
 //prototypes
 MonthlyBudget userExpenses();
-void displayDifferences(MonthlyBudget);
+void displayDifferences(MonthlyBudget, MonthlyBudget);
 
 
 int main()
@@ -52,9 +54,8 @@ int main()
     //func to ask for users monthly spending
     MonthlyBudget userInput = userInputBudget::userExpenses();
 
-    cout << userInput.totalBudget;
-
     //display differences
+    overUnder::displayDifferences(expectations, userInput);
 
     return 0;
 
