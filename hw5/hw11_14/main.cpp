@@ -41,10 +41,17 @@
 
 #include <iostream>
 #include "binStruct.h"
+#include "addNumbers.h"
+#include "subtractNumbers.h"
 
 using namespace std;
 using namespace productBinStruct;
+using namespace addingParts;
+using namespace deletingParts;
 
+//prototype functions
+void addParts(productBin *);
+void removeParts(productBin *);
 
 int main() {
     
@@ -104,6 +111,9 @@ int main() {
             } // if failed
         } //while getting user input
 
+        int findMe;
+        string findThisName;
+
         switch (optionChoice) {
 
             case 0:
@@ -119,6 +129,8 @@ int main() {
                 break;
 
         } // switch for users choice
+
+
         
     } // while looping
     
