@@ -54,11 +54,11 @@ void addParts(productBin *);
 void removeParts(productBin *);
 
 int main() {
-    
+
     //initialize vars
     productBin initialStart[10];
     bool looping = true;
-    
+
     //create array
     //Funny story: I had to help jump my sisters car before this lol.
     initialStart[0] = {"Valve", 10};
@@ -71,35 +71,35 @@ int main() {
     initialStart[7] = {"Vacuum Gripper", 25};
     initialStart[8] = {"Cable", 18};
     initialStart[9] = {"Rod", 12};
-    
+
     //print array (adding this to the loop
     //Ask user to add, delete, or exit (loop till exit)
     while(looping){
-        
+
         //print
-        cout << "----------------------------------";
-        cout << "Part Description\t\tNumber of Parts in the Bin";
-        cout << "----------------------------------";
-        cout << initialStart[0].itemName << "\t\t" << initialStart[0].numberInHouse;
-        cout << initialStart[1].itemName << "\t\t" << initialStart[1].numberInHouse;
-        cout << initialStart[2].itemName << "\t\t" << initialStart[2].numberInHouse;
-        cout << initialStart[3].itemName << "\t\t" << initialStart[3].numberInHouse;
-        cout << initialStart[4].itemName << "\t\t" << initialStart[4].numberInHouse;
-        cout << initialStart[5].itemName << "\t\t" << initialStart[5].numberInHouse;
-        cout << initialStart[6].itemName << "\t\t" << initialStart[6].numberInHouse;
-        cout << initialStart[7].itemName << "\t\t" << initialStart[7].numberInHouse;
-        cout << initialStart[8].itemName << "\t\t" << initialStart[8].numberInHouse;
-        cout << initialStart[9].itemName << "\t\t" << initialStart[9].numberInHouse;
+        cout << "----------------------------------\n";
+        cout << "Part Description\t\tNumber of Parts in the Bin\n";
+        cout << "----------------------------------\n";
+        cout << initialStart[0].itemName << "\t\t" << initialStart[0].numberInHouse << endl;
+        cout << initialStart[1].itemName << "\t\t" << initialStart[1].numberInHouse << endl;
+        cout << initialStart[2].itemName << "\t\t" << initialStart[2].numberInHouse << endl;
+        cout << initialStart[3].itemName << "\t\t" << initialStart[3].numberInHouse << endl;
+        cout << initialStart[4].itemName << "\t\t" << initialStart[4].numberInHouse << endl;
+        cout << initialStart[5].itemName << "\t\t" << initialStart[5].numberInHouse << endl;
+        cout << initialStart[6].itemName << "\t\t" << initialStart[6].numberInHouse << endl;
+        cout << initialStart[7].itemName << "\t\t" << initialStart[7].numberInHouse << endl;
+        cout << initialStart[8].itemName << "\t\t" << initialStart[8].numberInHouse << endl;
+        cout << initialStart[9].itemName << "\t\t" << initialStart[9].numberInHouse << endl;
         cout << "----------------------------------\n\n";
 
         //ask what doing
         //just gonna get numbers 
-            //0 = exit
-            //1 = add
-            //2 = subtract
-        int optionChoice = -1;    
+        //0 = exit
+        //1 = add
+        //2 = subtract
+        int optionChoice = -1;
         while(optionChoice > 2 || optionChoice < 0) {
-            cout << "Would you like to add(1) or subtract(2) from a bin? (to leave press 0 now)";
+            cout << "Would you like to add(1) or subtract(2) from a bin? (to leave press 0 now) ";
             cin >> optionChoice;
 
             //got help here: https://cplusplus.com/forum/beginner/182128/
@@ -111,9 +111,6 @@ int main() {
             } // if failed
         } //while getting user input
 
-        int findMe;
-        string findThisName;
-
         switch (optionChoice) {
 
             case 0:
@@ -121,19 +118,19 @@ int main() {
                 break;
 
             case 1:
-                //add
+                addingParts::addParts(initialStart);
                 break;
 
             case 2:
-                //subtract
+                deletingParts::removeParts(initialStart);
                 break;
 
         } // switch for users choice
 
 
-        
+
     } // while looping
-    
+
     return 0;
-    
+
 }

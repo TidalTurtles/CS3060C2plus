@@ -3,4 +3,4 @@ project(hw11_14)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(hw11_14 main.cpp binStruct.h)
+add_executable(hw11_14 main.cpp)
