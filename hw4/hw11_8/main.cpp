@@ -39,6 +39,11 @@ const int numUsers = 5;
 //prototype
 void searching(userAccounts *,userAccounts *, string);
 
+//from lab
+void getInfo(userAccounts&);
+void showInfo(userAccounts);
+void showSearch(userAccounts[], string, int);
+
 
 int main() {
 

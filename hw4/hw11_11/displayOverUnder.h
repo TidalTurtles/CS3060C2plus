@@ -9,6 +9,7 @@
 
 #include <iostream>
 #include "budgetStruct.h"
+#include <iomanip>
 
 using namespace std;
 using namespace monthlyBudgetStruct;
@@ -16,9 +17,16 @@ using namespace monthlyBudgetStruct;
 #ifndef HW11_11_DISPLAYOVERUNDER_H
 #define HW11_11_DISPLAYOVERUNDER_H
 
+//could be better formatted
+
 namespace overUnder {
 
     void displayDifferences(MonthlyBudget desired, MonthlyBudget whatHadHappenedWas) {
+
+        //from lab
+        cout << setprecision(2) << fixed << showpoint;
+
+        //for formatting in cout << stuff << setw(10) << stuff
 
         cout << "\n\nFor housing this much you were $" << desired.housing - whatHadHappenedWas.housing
              << " compared to your goal." << endl;

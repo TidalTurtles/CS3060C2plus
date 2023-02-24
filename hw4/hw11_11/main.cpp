@@ -42,6 +42,7 @@ int main()
 
     //
     //define goal budget values
+    // in lab, made many constants
     //
     MonthlyBudget expectations = {500.00, 150.00, 65.00, 50.00, 250.00,
                                   30.00, 100.00, 150.00, 75.00, 50.00};

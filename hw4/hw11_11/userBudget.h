@@ -63,7 +63,6 @@ namespace userInputBudget
         cin >> inputExpenses.misc;
         inputExpenses.totalBudget += inputExpenses.misc;
 
-
         return inputExpenses;
 
     }

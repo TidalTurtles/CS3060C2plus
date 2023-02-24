@@ -53,6 +53,10 @@ using namespace deletingParts;
 void addParts(productBin *);
 void removeParts(productBin *);
 
+//from lab
+//const max = 30 per bin
+//const array size = 10;
+
 int main() {
 
     //initialize vars
