@@ -19,14 +19,42 @@
  */
 
 #include <iostream>
-
+#include "SimpleCars2.h"
+#include "SimpleCars2.cpp"
 
 using namespace std;
 
 
 int main() {
 
+    SimpleCars2 jett(1997, "Jetta");
 
+    //Test Accelerate 5 times
+    cout << "\nAccelerating!\n" <<jett.getSpeed() << endl;
+    jett.accelerate();
+    cout << jett.getSpeed() << endl;
+    jett.accelerate();
+    cout << jett.getSpeed() << endl;
+    jett.accelerate();
+    cout << jett.getSpeed() << endl;
+    jett.accelerate();
+    cout << jett.getSpeed() << endl;
+    jett.accelerate();
+    cout << jett.getSpeed() << endl;
+
+    //test brake 5 times
+    cout << "\nBraking!\n";
+    jett.brake();
+    cout << jett.getSpeed() << endl;
+    jett.brake();
+    cout << jett.getSpeed() << endl;
+    jett.brake();
+    cout << jett.getSpeed() << endl;
+    jett.brake();
+    cout << jett.getSpeed() << endl;
+    jett.brake();
+    cout << jett.getSpeed() << endl;
+    jett.brake();
 
     return 0;
 
