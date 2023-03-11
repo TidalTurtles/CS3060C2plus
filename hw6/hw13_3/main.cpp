@@ -25,7 +25,7 @@
 using namespace std;
 
 
-int main() {
+int main() { //used for loops 5 times in lab instead of writing out
 
     SimpleCars2 jett(1997, "Jetta");
 

@@ -19,6 +19,7 @@ int main()
     //vars
     double mass;
     double velocity;
+    double kinetic;
 
     //get mass
     cout << "Enter the mass of the object: ";
@@ -30,8 +31,11 @@ int main()
     cin >> velocity;
     cout << endl;
 
+    //get Kinetic
+    kinetic = kineticEnergy(mass, velocity);
+
     //display kinetic
-    cout << "The Objects Kinetic Energy is " << "joules.\n";
+    cout << "The Objects Kinetic Energy is " << kinetic << " joules.\n";
 
     return 0;
 
