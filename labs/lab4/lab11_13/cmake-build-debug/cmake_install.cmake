@@ -1,4 +1,4 @@
-# Install script for directory: /Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab3/lab11_13
+# Install script for directory: /Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab4/lab11_13
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab3/lab11_13/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/noah/Desktop/school/Spring 23/CS3060C2plus/labs/lab4/lab11_13/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
