@@ -21,26 +21,40 @@
  */
 
 #include <iostream>
+#include <iomanip>
 
 #include "FeetInches.h"
 #include "FeetInches.cpp"
 #include "RoomDimension.h"
 #include "RoomDimension.cpp"
-
-
+#include "RoomCarpet.h"
+#include "RoomCarpet.cpp"
 
 using namespace std;
 
 int main() {
 
-    FeetInches test1(1, 2);
-    FeetInches test2(3, 4);
+    FeetInches dimension1;
+    FeetInches dimension2;
+    double priceOfCarpet;
+    int pickMe;
 
-    RoomDimension livingRoom(test1, test2);
+    cout << "What is the first dimension of the room in feet?: ";
+    cin >> pickMe;
+    dimension1.setFeet(pickMe);
 
-    FeetInches livingArea = livingRoom.roomArea();
+    cout << "What is the second dimension of the room in feet?: ";
+    cin >> pickMe;
+    dimension2.setFeet(pickMe);
 
-    cout << livingArea.getInches();
+    cout << "What is the price per square foot of carpet?: ";
+    cin >> priceOfCarpet;
+
+    RoomDimension livingRoom(dimension1, dimension2);
+
+    RoomCarpet priceOfLiving(livingRoom, priceOfCarpet);
+
+    cout << "Cost of carpet for your living room is " << setprecision(4) << priceOfLiving.totalCost();
 
     return 0;
 

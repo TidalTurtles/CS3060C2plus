@@ -26,6 +26,7 @@ private:
 public:
     //construct
     RoomDimension(FeetInches, FeetInches);
+    RoomDimension();
 
     //getters
     FeetInches getLength();

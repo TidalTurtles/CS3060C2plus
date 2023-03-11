@@ -13,6 +13,8 @@ RoomDimension::RoomDimension(FeetInches l, FeetInches w) {
     width = w;
 }
 
+RoomDimension::RoomDimension() {}
+
 //getters
 FeetInches RoomDimension::getLength()
 {
