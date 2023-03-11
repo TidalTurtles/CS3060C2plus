@@ -108,16 +108,22 @@ int countWords(string fileName)
 
         //if we aren't at the end of the string, then
         //count this as a word and then skip over it
-
+        if (input[index] != '\0'){
             //This is the beginning of the word so
             //increment the word counter.
+            numWords++;
 
             //skip over this word
+            while (!isspace(input[index]) && input[index] != '\0'){
+                index++;
+            }
+
+        }
+
 
         inputFile.getline(input, SIZE); //use \n as delimiter
 
     }
-
 
     //close file
     inputFile.close();
