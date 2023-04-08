@@ -13,7 +13,23 @@ protected:
     double minPassingScore;
 
 public:
+    //default construct
+    PassFailActivity() : GradedActivity()
+    { minPassingScore = 0.0; }
 
+    //construct
+    PassFailActivity(double mps) : GradedActivity()
+    { minPassingScore = mps; }
+
+    //mutator
+    void setMinPassingScore(double mps)
+    { minPassingScore = mps; }
+
+    //accessors
+    double getMinPassingScore() const
+    { return minPassingScore; }
+
+    char getLetterGrade() const;
 
 };
 

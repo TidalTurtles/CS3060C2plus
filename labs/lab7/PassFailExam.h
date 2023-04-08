@@ -15,16 +15,29 @@ private:
     int numMissed;
 
 public:
+    //default construct
     PassFailExam() : PassFailActivity(){
         numQuestions = 0;
         numMissed = 0;
         pointsEach = 0.0;
     }
 
-    PassFailExam(int questions, int missed, double mps) : PassFailActivity(){
+    //mutator
+    void set(int q, int m);
 
+    //construct
+    PassFailExam(int questions, int missed, double mps) : PassFailActivity(mps)
+    { set(questions, missed); }
 
-    }
+    //accessors
+    int getNumQuestions() const
+    { return numQuestions; }
+
+    double getPointsEach() const
+    { return pointsEach; }
+
+    int getNumMissed() const
+    { return numMissed; }
 
 };
 

@@ -7,9 +7,17 @@
 
 using namespace std;
 
-char getLetterGrade() const
+char PassFailActivity::getLetterGrade() const
 {
 
     char letterGrade;
+
+    if (score >= minPassingScore){
+        letterGrade = 'P';
+    } else {
+        letterGrade = 'F';
+    }
+
+    return letterGrade
 
 }

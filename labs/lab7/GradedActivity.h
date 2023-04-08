@@ -11,15 +11,26 @@ protected:
     double score;
 
 public:
+    // default construct
     GradedActivity()
     {
         score = 0.0;
     }
-
+    //construct
     GradedActivity(double s)
     {
         score = s;
     }
+
+    //mutator
+    void setScore(double s)
+    { score = s; }
+
+    //accessor
+    double getScore() const
+    { return score; }
+
+    char getLetterGrade() const;
 
 };
 

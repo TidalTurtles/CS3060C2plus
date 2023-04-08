@@ -18,20 +18,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c6eef4f-329e-4fce-929c-072b294f575e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseGrades.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CourseGrades.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Essay.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Essay.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExam.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalExam.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GradedActivity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GradedActivity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassFailActivity.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassFailActivity.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassFailExam.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PassFailExam.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lab3/lab8_8/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/lab8_8/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Essay.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Essay.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Essay.h" beforeDir="false" afterPath="$PROJECT_DIR$/Essay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradedActivity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GradedActivity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GradedActivity.h" beforeDir="false" afterPath="$PROJECT_DIR$/GradedActivity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassFailActivity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PassFailActivity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassFailActivity.h" beforeDir="false" afterPath="$PROJECT_DIR$/PassFailActivity.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassFailExam.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PassFailExam.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PassFailExam.h" beforeDir="false" afterPath="$PROJECT_DIR$/PassFailExam.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/lab7.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lab7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680703300248</updated>
       <workItem from="1680703301371" duration="4176000" />
-      <workItem from="1680971606076" duration="1359000" />
+      <workItem from="1680971606076" duration="3804000" />
     </task>
     <servers />
   </component>

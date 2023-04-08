@@ -43,8 +43,8 @@ public:
     double getContenPoints() const
     { return contentPoints; }
 
-    virtual double getScore();
-    virtual char getLetterGrade();
+    double getScore();
+    char getLetterGrade();
 
 };
 
