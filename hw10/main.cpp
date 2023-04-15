@@ -18,10 +18,36 @@
  */
 
 #include <iostream>
+#include <map>
+#include <fstream>
+#include <string>
+
+using namespace std;
 
 int main() {
 
-    std::cout << "Hello, World!" << std::endl;
+    //map of words and count
+    map<string, int> numWords;
+
+    //open file
+    ifstream readIn ("../test1.txt"); //change for testing on different systems.
+    string test;
+    //read by word and fill out map
+    while(readIn >> test){
+        if(!numWords.count(test)){
+            numWords.insert(make_pair(test, 1));
+        } else {
+            numWords[test] ++;
+        }
+    }
+    //don't need file anymore
+    readIn.close();
+
+    //iterate through the map
+    //  print out word and count
+    for(map<string, int> :: iterator thru = numWords.begin(); thru != numWords.end(); thru++){
+        cout << thru->first << " = " << thru->second << endl;
+    }
 
     return 0;
 
