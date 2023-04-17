@@ -22,7 +22,7 @@ using namespace std;
 template <class T>
 T minimum(T val1, T val2)
 {
-
+    //return lower val
     if (val1 < val2){
         return val1;
     } else {
@@ -34,7 +34,10 @@ T minimum(T val1, T val2)
 template <class T>
 T maximum(T val1, T val2)
 {
+    //Tuple version
+    // return (val1 > val2) ? val1 : val2;
 
+    //return bigger val
     if (val1 > val2){
         return val1;
     } else {
