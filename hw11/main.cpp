@@ -13,8 +13,31 @@
  */
 
 #include <iostream>
+#include "BinaryTree.h"
+
+using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    BinaryTree<int> intTree;
+    BinaryTree<double> doubleTree;
+
+    intTree.insertLeaf(3);
+    intTree.insertLeaf(5);
+    intTree.insertLeaf(-2);
+    intTree.insertLeaf(42);
+    intTree.insertLeaf(10);
+
+    doubleTree.insertLeaf(11.11);
+    doubleTree.insertLeaf(-0.567);
+    doubleTree.insertLeaf(34.09);
+    doubleTree.insertLeaf(2.2);
+    doubleTree.insertLeaf(-10.5);
+
+    intTree.removeLeaf(7);
+    intTree.removeLeaf(5);
+
+    doubleTree.searchTree(2.4);
+    doubleTree.searchTree(2.2);
+
 }
