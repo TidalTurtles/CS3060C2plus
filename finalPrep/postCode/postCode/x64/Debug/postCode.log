@@ -1,0 +1,9 @@
+﻿  14.13inlab.cpp
+  15.1inLab.cpp
+  15.7inLab.cpp
+  exampleInLab.cpp
+C:\Users\judah\Desktop\C++\postCode\postCode\exampleInLab.cpp(3,6): error C2143: syntax error: missing ';' before '<<'
+C:\Users\judah\Desktop\C++\postCode\postCode\exampleInLab.cpp(3,6): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\judah\Desktop\C++\postCode\postCode\exampleInLab.cpp(3,6): error C2059: syntax error: '<<'
+  postCode.cpp
+  Generating Code...
